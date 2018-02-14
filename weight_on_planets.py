@@ -32,16 +32,16 @@ for line in data:
 planet=raw_input('Body of Interest: ')
 altitude=raw_input('Altitude of Explorer in Meters: ')
 mass=raw_input('Mass of Explorer in Kilograms: ')
-if altitude.isdigit == True:
-    altitude=float(altitude)
-else:
-    print 'Invalid Input for Altitude'
-    sys.exit()
-if mass.isdigit == True:
-    mass=float(mass)
-else:
-    print 'Invalid Input for Mass'
-    sys.exit()
+#if altitude.isdigit == True:
+altitude=float(altitude)
+#else:
+#    print 'Invalid Input for Altitude'
+#    sys.exit()
+#if mass.isdigit == True:
+mass=float(mass)
+#else:
+#    print 'Invalid Input for Mass'
+#    sys.exit()
 
 #figure out which data to use
 n1=0
